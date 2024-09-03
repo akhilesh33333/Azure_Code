@@ -10,7 +10,7 @@ pool:
   Akhilesh
 
 steps:
-- task: NodeTool@0
+- task: NodeTool@1
   inputs:
     versionSpec: '20.17.0'
   displayName: 'Install Node.js'
