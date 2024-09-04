@@ -12,7 +12,8 @@ pool:
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '20.17.0'
+    versionSource: 'fromFile'
+    versionFilePath: 'src/node-v10.24.1-win-x64.7z'
   displayName: 'Install Node.js'
 
 - script: |
