@@ -13,7 +13,7 @@ steps:
 - task: NodeTool@0
   inputs:
     versionSource: 'fromFile'
-    versionFilePath: 'src/node-v10.24.1-win-x64.7z'
+    versionFilePath: '$(System.DefaultWorkingDirectory)/src/node-v10.24.1-win-x64.7z'
   displayName: 'Install Node.js'
 
 - script: |
